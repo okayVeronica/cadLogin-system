@@ -1,6 +1,6 @@
-# Sistema de Autenticação e Cadastro de Usuários
+# cadLogin-system
 
-![Logo do Projeto](https://via.placeholder.com/150) <!-- Você pode substituir pela imagem do seu projeto -->
+![Logo do Projeto]
 
 ## Sumário
 1. [Introdução](#introdução)
@@ -17,7 +17,8 @@
 ---
 
 ## Introdução
-O **Sistema de Autenticação e Cadastro de Usuários** é um projeto desenvolvido com o objetivo de criar uma plataforma segura e eficiente para gerenciar o acesso de usuários. Utilizando PHP para o backend e MySQL para armazenamento de dados, este sistema oferece uma experiência robusta de autenticação e gerenciamento de sessões.
+Este projeto tem como objetivo criar uma plataforma simples e segura para gerenciar o acesso de usuários. Usando PHP no backend e MySQL para armazenar as informações, o sistema oferece uma maneira eficiente de cadastrar novos usuários e fazer o login de forma segura. As senhas são criptografadas para garantir a segurança, e cada usuário pode acessar diferentes áreas do sistema com base no seu perfil, como administrador, gestor ou colaborador. Tudo foi pensado para ser prático e funcional, mantendo os dados protegidos e o sistema fácil de usar.
+
 
 ### Principais Destaques:
 - **Segurança**: Criptografia de senhas e sessões seguras.
@@ -38,10 +39,10 @@ Todos os usuários têm suas senhas armazenadas de forma segura, utilizando a fu
 ---
 
 ## Sobre a Atividade
-Este projeto foi criado para fins acadêmicos, focando no desenvolvimento de sistemas e na segurança da informação. As competências abordadas incluem:
+Este projeto foi criado em sala de aula com o professor Leonardo Rocha, focando no desenvolvimento de sistemas e na segurança da informação. As competências abordadas incluem:
 
 - **Programação Orientada a Objetos**
-- **Interação Segura com Banco de Dados**
+- **Interação com Banco de Dados**
 - **Padrão MVC**
 - **Gerenciamento de Sessões**
 
@@ -118,6 +119,10 @@ git clone https://github.com/seuusuario/sistema_autenticacao.git
  - Ao sair do sistema, a sessão do usuário será destruída, garantindo que o próximo acesso necessite de uma nova autenticação.
 
 ---
+
+## Considerações Finais
+ - Este projeto está em desenvolvimento e novas funcionalidades serão adicionadas nas proximas aulas.
+
 ## Fontes Consultadas
 - [Leonardo Rocha](https://github.com/LeonardoRochaMarista)
 - [chatGPT](https://openai.com/chatgpt/)
