@@ -1,0 +1,79 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F3FB; /* Um tom suave de roxo */
+    color: #4B3F6B; /* Cor do texto em um tom mais escuro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: #A05CC5; /* Roxo pastel */
+    text-align: center;
+}
+
+/* Formulários */
+form {
+    background-color: #FFFFFF; /* Fundo branco para os formulários */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #D6C3E3; /* Bordas em tom pastel */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Botões */
+button {
+    background-color: #EAB8E4; /* Rosa pastel */
+    color: #4B3F6B; /* Cor do texto */
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D89CD1; /* Um tom de rosa mais escuro ao passar o mouse */
+}
+
+/* Links */
+a {
+    color: #A05CC5; /* Roxo pastel */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensagens de erro ou sucesso */
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: #FFB2B2; /* Rosa claro para erro */
+    color: #D8000C; /* Vermelho escuro */
+}
+
+.success {
+    background-color: #B2FFB2; /* Verde claro para sucesso */
+    color: #007A00; /* Verde escuro */
+}
